@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    background-color: #F1F1F1;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto' , sans-serif;
+}
+.avatar {
+    width: 750px;
+    border-radius: 28px;
+}
+.info p {
+    color: black; 
+    font-style: italic;   
+}
+@media (max-width: 700px){
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+.social {
+background: #F0FFF0 ;
+padding: 15px;
+border: 5px solid #8fbc8f ;
+margin: 20px;
+border-top-width: 15px;
+}
+a {
+    color: black;
+text-decoration: none ;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}
+.bg-green {
+    background: #8fbc8f;
+}
+.bg-yellow {
+    background: rgb(167, 241, 46);
+}
+.bg-red {
+background: rgb(243, 119, 3);
+}
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card h2 {
+    margin-bottom: 10px;
+}
+.table {
+    width: 100%;
+}
+.contact h2 {
+    text-align: center;
+}
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: #868988;
+}
+.form-group input,
+.form-group textarea {
+width: 100%;
+box-sizing: border-box;
+border: none;
+background: transparent;
+padding: 15px 0 10px;
+border-bottom: 1px solid #ccc;
+outline: none;
+font-family: inherit;
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+width: 50%;
+margin-right: 20px;
+}
+.btn {
+    background: black;
+    padding: 15px 20px;
+    color: azure;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.9;
+}
